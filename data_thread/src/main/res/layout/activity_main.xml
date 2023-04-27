@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECE6BD"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="397dp"
+        android:layout_height="639dp"
+        android:lines="30"
+        android:maxLines="30"
+        android:text="runOnUiThread(выполняемое действие) - выполняет указанное действие в потоке пользовательского интерфейса. Если текущий поток является потоком пользовательского интерфейса, то действие выполняется немедленно. Если текущий поток не является потоком пользовательского интерфейса, действие публикуется в очереди событий потока пользовательского интерфейса public boolean post (выполняемое действие) - Приводит к добавлению выполняемого файла в очередь сообщений. Запускаемый файл будет выполняться в потоке пользовательского интерфейса. public boolean postDelayed (выполняемое действие, миллиметр длительной задержки) - Приводит к добавлению выполняемого объекта в очередь сообщений, который будет запущен по истечении указанного промежутка времени. Запускаемый файл будет выполняться в потоке пользовательского интерфейса."
+
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.152" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
